@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+html, body, #root{
+  min-height: 100%;
+}
+
+body{
+  background: #020008;
+  font-size: 1.4em;
+  -webkit-font-smooting: antialiased !important
+}
+
+body, input, button{
+  color: rgb(73, 56, 56);
+  font-size: 1.4em;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 1.2em;
+
+
+}

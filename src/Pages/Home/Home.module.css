@@ -1,0 +1,9 @@
+.principal{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 20px;
+    background-color: #0c7ca8;
+    border-radius: 3px;
+}
