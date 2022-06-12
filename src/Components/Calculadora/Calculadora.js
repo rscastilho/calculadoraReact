@@ -41,6 +41,7 @@ const Calculadora = () => {
                         number={number}
                     />
                 </div>
+                    <div className={`${styles.buttons}`}>
 
                 <div>
                     <Botoes
@@ -49,6 +50,7 @@ const Calculadora = () => {
                         number={number}
                     />
                 </div>
+                    </div>
                 <div>
                     <Botoes
                         valor={5}
@@ -56,8 +58,6 @@ const Calculadora = () => {
                         number={number}
                         />
                 </div>
-                        </div>
-                                <div className={`${styles.buttons}`}>
                 <div>
                     <Botoes
                         valor={6}
@@ -96,8 +96,6 @@ const Calculadora = () => {
                         />
                 </div>
                 
-                        </div>
-                        <div className={`${styles.buttons}`}>
                 <div>
                     <Botoes
                         valor={'+'}
@@ -106,7 +104,6 @@ const Calculadora = () => {
                         total={total}
                     />
                 </div>
-
                 <div>
                     <Botoes
                         valor={'-'}
@@ -115,6 +112,9 @@ const Calculadora = () => {
                         total={total}
                     />
                 </div>
+                        </div>
+                        <div className={`${styles.buttons}`}>
+
                 <div>
                     <Botoes
                         valor={'*'}
@@ -132,7 +132,6 @@ const Calculadora = () => {
                         total={total}
                     />
                 </div>
-
                 <div>
                     <BotaosResultado
                         valor={'='}
@@ -142,6 +141,8 @@ const Calculadora = () => {
                         setNumber={setNumber}
                     />
                 </div>
+
+                <div className={`${styles.buttons}`}>
 
                 <div>
 
@@ -155,7 +156,7 @@ const Calculadora = () => {
                     />
                 </div>
                 </div>
-
+</div>
 
 
 

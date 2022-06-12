@@ -7,6 +7,14 @@
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
+}
+
+@media screen { 
+
+    .principal{
+        height: 370px;
+    }
+    
 }
