@@ -4,7 +4,7 @@ import styles from './Home.module.css'
 
 const Home = () => {
   return (
-    <div className={`${styles.principal}`}>
+    <div className={`${styles.principal} `}>
 
 
       <Calculadora />

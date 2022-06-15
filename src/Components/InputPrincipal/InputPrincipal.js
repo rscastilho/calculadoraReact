@@ -11,8 +11,9 @@ const InputPrincipal = ({ number }) => {
   }, [])
 
   return (
-    <div className={`${styles.principal}`}>
+    <div className={`${styles.principal} m-2`}>
       <input
+      className={`form-control`}
         type="text"
         readOnly
         value={number}

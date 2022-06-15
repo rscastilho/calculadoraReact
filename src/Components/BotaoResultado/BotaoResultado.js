@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Botoes.module.css'
+import styles from './BotaoResultado.module.css'
 
 const BotaosResultado = ({ valor, setTotal, number, total, setNumber }) => {
 
@@ -15,19 +15,12 @@ const BotaosResultado = ({ valor, setTotal, number, total, setNumber }) => {
             console.log(total)
             setNumber('')
         }
-
-
-
-
-
-
     }
-
 
     return (
         <div>
             <button
-                className={`${styles.button}`}
+                className={`${styles.button} btn btn-danger`}
                 onClick={handleCalcular}
             >
                 {valor}
